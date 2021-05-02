@@ -1,0 +1,41 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+p {
+    font-size: 5ex;
+    padding: 0.4ex;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 0.3ex;
+}
+
+.Hobbies {
+	background-color:#44c767;
+	border-radius:13px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Ubuntu', sans-serif;
+	font-size:20px;
+	padding:14px 35px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0px #2f6627;
+}
+.Hobbies:hover {
+	background-color:#5cbf2a;
+}
+.Hobbies:active {
+	position:relative;
+	top:1px;
+}

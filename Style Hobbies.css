@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: darkgrey;
+}
+img {
+    width: 31%;
+    border: 1px solid rgb(77, 230, 153);
+
+}
+p {
+    padding: 3px;
+    color: rgb(34, 67, 212);
+    font-size: 1.1em;
+}
+
+/* Navigation formating timeeeeee */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(17, 231, 124);
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+/* Font Importing */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Title (Basic Video Editing Tricks) */
+p {
+    padding: 3ex;
+    font-size: 4ex;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    
+}
+
+p.PPB {
+   padding: 0.5ex;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }

@@ -1,0 +1,73 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: darkgrey;
+}
+img {
+    width: 31%;
+    border: 1px solid rgb(77, 230, 153);
+
+}
+p {
+    padding: 3px;
+    color: rgb(34, 67, 212);
+    font-size: 1.1em;
+}
+
+/* Navigation formating timeeeeee */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(17, 231, 124);
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+/* Font Importing */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Text Formating */
+h1 {
+    padding: 2ex;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+h3 {
+    padding: 0.2ex;
+    font-style: normal;
+    font-size: 5ex;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    padding: 0.5ex;
+    font-size: 3ex;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Image formating */
+div.JO {
+    border-radius: 8px;
+}
+
+/* Experiences */
+ul.xp {
+    list-style-type: circle;
+}
